@@ -1,27 +1,26 @@
-
-#nav {
-  display:flex;
+#nav{
+    margin-bottom: 50px;
+    margin-top: 1000px;
+    background: purple;
+    border: solid red;
+    border-radius:2%;
+    margin-inside: 50px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 100px;
 }
-.nav-position{
-   display: flex;
-    justify-content: space-evenly;
-    color: #ccc;
-    font-size: 20px;
-}
-.nav-position>p:hover{
-    text-decoration: underline;
+#output > p:hover{
+    text-decoration:underline;
     cursor:pointer;
+    display: flex;
+
 }
-#left{
-    width:120px;
+#nav img {
+    margin-top: 50px;
+    padding: 1px;
+    border-radius: 50%;
 }
-#right{
-    width:200px;
-}
-#right img{
-    border-radius:40%;
-    margin-top:6px;
-    width:24px;
-    height: 24px;
+#Alumni {
+
 }
