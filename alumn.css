@@ -1,24 +1,62 @@
-.alumni{
-    margin-bottom: 50px;
-    margin-top: 1000px;
+.container{
     background: purple;
-    border: solid red;
-    border-radius:2%;
-    margin-inside: 50px;
-    display: flex;
+    /*display: flex;*/
+    padding: 10px;
     justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.3);
+    border: black;
 }
-#content {
-    margin-left: 20px;
+.blocks{
+    background: beige;
     display: flex;
-
+    padding: 200px;
+    align-items: center;
+    flex-direction:column;
+    border-color: black;
+    box-shadow: brown;
 }
-#alumni img {
-    margin-top: 50px;
+.alumni{
+    margin-bottom: 100px;
+    /*margin-top: 1000px;*/
+    background: purple;
+    border: solid blueviolet;
+    border-radius: 2%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 50px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+.alumni img{
+    margin-top: 25px;
+    width: 10rem;
+    height: 10rem;
+    background: beige;
+    display: flex;
+    padding: 2px;
 
     border-radius: 50%;
+    flex-direction: column;
+    box-shadow: 5px 5px 20px rgba(0, 0, 50, 0.3);
+}
+
+.alum{
+    background: aqua;
+    padding: 5px;
+    border: black;
+    border-radius:10%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 2px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
 
 }
+
+.abbr{
+
+}
+
