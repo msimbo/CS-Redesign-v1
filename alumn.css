@@ -4,6 +4,7 @@
     /*margin: 20px;*/
 
 }
+.
 .blocks{
     background: beige;
     display: flex;
@@ -42,7 +43,7 @@
     padding: 50px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
     font-family: Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 .alumni img{
     margin-top: 25px;
@@ -64,7 +65,7 @@
     border-radius:10%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
     margin: 2px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap-reverse;
     cursor:pointer;
