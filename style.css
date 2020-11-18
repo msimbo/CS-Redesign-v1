@@ -1,0 +1,26 @@
+
+
+    #Kesha {position:relative;  z-index:1;}
+    #RT {display:flex; align-content: flex-start;
+    margin: 50px;}
+
+h1 { color:violet; display:flex; justify-content: flex-end;}
+
+    h2 {
+        color:violet ; 
+    padding: 15px;
+    border-radius: 50px;}
+
+#People {display: flex; justify-content: flex-end;}
+
+
+ #Movies {display:flex; justify-content: flex-end;}
+ 
+#People {display:flex; justify-content:flex-end;}
+
+#Tasks {display:flex; align-content: flex-end; 
+    flex-direction: row-reverse;}
+
+#Stuff {display:flex; justify-content: flex-end;}
+#To-Do {display:flex; justify-content: flex-end;}
+#Tests {display:flex; justify-content: flex-end;}
