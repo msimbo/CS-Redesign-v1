@@ -5,7 +5,7 @@
 
 }
 .blocks{
-    background: beige;
+    background: darkgreen;
     display: flex;
     padding: 10px;
     align-items: center;
@@ -31,9 +31,8 @@
 
 .alumni{
     margin-bottom: 100px;
-    /*margin-top: 1000px;*/
     background: purple;
-    border: solid blueviolet;
+    border: solid rebeccapurple;
     border-radius: 2%;
     margin-left: 10px;
     display: flex;
@@ -48,7 +47,7 @@
     margin-top: 25px;
     width: 5rem;
     height: 5rem;
-    background: beige;
+    background: rebeccapurple;
     display: flex;
     padding: 2px;
     border-radius: 50%;
@@ -58,7 +57,7 @@
 .sub-alum img{
     width: 2rem;
     height: 2rem;
-    background: ghostwhite;
+    background: white;
     border-radius: 20%;
 }
 .sub-alum{
