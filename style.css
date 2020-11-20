@@ -4,14 +4,14 @@
     #RT {display:flex; align-content: flex-end;
     margin: 50px;}
 
-h1 { color:violet; display:flex; justify-content: flex-end;}
+h1 {color:rebeccapurple; display:flex; justify-content: flex-end; font-size: 20px;}
 
-    h5 {
-        color:violet; 
+    h3 {
+        color:rebeccapurple; 
     padding: 15px;
     border-radius: 50px;}
 
-    .pics img { border-radius: 50px; display: flex; justify-content: flex-end; width:80px; height: 70px;}
+    .pics img { border-radius: 50px; display: flex; justify-content: flex-end; width:110px; height: 110px;}
 
     #People { display: flex; justify-content: flex-end;}
     .hvrbox .hvrbox-layer_scale-rotate{
@@ -30,15 +30,13 @@ h1 { color:violet; display:flex; justify-content: flex-end;}
         -ms-transform: scale(1) rotateZ(360deg);
         transform: scale(1) rotateZ(360deg);
     }
-.pics {
-    background: rebeccapurple;}
-    .Q-E { background-image: url ("https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" width="70" height="70");}
 
-.container:hover .overlay { bottom: 0; height: 100%;}
 
     #Tasks { display: flex; justify-content: flex-end;}
     #Tasks { background-image: url ()}
     #Movies {display: flex; justify-content: flex-end;}
     #To-Do {display: flex; justify-content: flex-end;}
     #Stuff { display: flex; justify-content: flex-end;}
+    .hidden {display:none;}
+    .hidden {display: block;}
     #Tests { display: flex; justify-content: flex-end;}
