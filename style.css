@@ -11,7 +11,7 @@ h1 { color:violet; display:flex; justify-content: flex-end;}
     padding: 15px;
     border-radius: 50px;}
 
-    .pics img { border-radius: 50px; display: flex; justify-content: flex-end;}
+    .pics img { border-radius: 50px; display: flex; justify-content: flex-end; width:80px; height: 70px;}
 
     #People { display: flex; justify-content: flex-end;}
     .hvrbox .hvrbox-layer_scale-rotate{
@@ -21,6 +21,7 @@ h1 { color:violet; display:flex; justify-content: flex-end;}
         -ms-transform: scale (0) rotateZ(0);
         transform: scale(0) rotateZ(0);
     }
+    
     .hvrbox:hover .hvrbox-layer_scale-rotate,
     .hvrbox.active .hvrbox-layer_scale-rotate {
         border-radius: 0%;
@@ -29,8 +30,14 @@ h1 { color:violet; display:flex; justify-content: flex-end;}
         -ms-transform: scale(1) rotateZ(360deg);
         transform: scale(1) rotateZ(360deg);
     }
+.pics {
+    background: rebeccapurple;}
+    .Q-E { background-image: url ("https://images.unsplash.com/photo-1534644107580-3a4dbd494a95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" width="70" height="70");}
+
+.container:hover .overlay { bottom: 0; height: 100%;}
 
     #Tasks { display: flex; justify-content: flex-end;}
+    #Tasks { background-image: url ()}
     #Movies {display: flex; justify-content: flex-end;}
     #To-Do {display: flex; justify-content: flex-end;}
     #Stuff { display: flex; justify-content: flex-end;}
