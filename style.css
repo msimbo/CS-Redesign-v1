@@ -1,23 +1,37 @@
 
 
     #Kesha {position:relative;  z-index:1;}
-    #RT {display:flex; align-content: flex-start;
+    #RT {display:flex; align-content: flex-end;
     margin: 50px;}
 
 h1 { color:violet; display:flex; justify-content: flex-end;}
 
     h5 {
-        color:violet ; 
+        color:violet; 
     padding: 15px;
     border-radius: 50px;}
 
-    .pics img { border-radius: 50px;}
-        
+    .pics img { border-radius: 50px; display: flex; justify-content: flex-end;}
 
-#People {display: flex; justify-content: flex-end;}
- #Movies {display:flex; justify-content: flex-end;}
-#People {display:flex; justify-content:flex-end;}
-#Tasks {display:flex; align-content: flex-end;}
-#Stuff {display:flex; justify-content: flex-end;
-#To-Do  {display:flex; justify-content: flex-end;}
-#Tests {display:flex; justify-content: flex-end;}
+    #People { display: flex; justify-content: flex-end;}
+    .hvrbox .hvrbox-layer_scale-rotate{
+        border-radius: 50%;
+        -moz-transform: scale (0) rotateZ(0);
+        -webkit-transform: scale (0) rotateZ(0);
+        -ms-transform: scale (0) rotateZ(0);
+        transform: scale(0) rotateZ(0);
+    }
+    .hvrbox:hover .hvrbox-layer_scale-rotate,
+    .hvrbox.active .hvrbox-layer_scale-rotate {
+        border-radius: 0%;
+        -moz-transform: scale(1) rotateZ(360deg);
+        -webkit-transform: scale(1) rotateZ(360deg);
+        -ms-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+
+    #Tasks { display: flex; justify-content: flex-end;}
+    #Movies {display: flex; justify-content: flex-end;}
+    #To-Do {display: flex; justify-content: flex-end;}
+    #Stuff { display: flex; justify-content: flex-end;}
+    #Tests { display: flex; justify-content: flex-end;}
